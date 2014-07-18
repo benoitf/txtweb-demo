@@ -34,7 +34,7 @@ public class HelloTxtWebServlet extends HttpServlet {
     private static final long   serialVersionUID = -6194111034650922L;
     private static final Logger logger           = Logger.getLogger(HelloTxtWebServlet.class.getName());
 
-    private static final String APPKEY_NAME    = "@@APPKEYNAME@@";
+    private static final String APPKEY_NAME    = "txtweb-appkey";
     private static final String APPKEY_CONTENT = "@@APPKEYCONTENT@@";
 
     private static final String HTTP_PARAM_TXTWEB_MESSAGE   = "txtweb-message";
